@@ -1,0 +1,255 @@
+/*******************************************************************/
+/* Global styles                                                   */
+/*******************************************************************/
+
+BODY {
+    margin: 0;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+TABLE {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+TD {
+    padding: 0;
+    margin: 0;
+}
+
+TABLE TR {
+    vertical-align: top;
+}        
+
+DIV, TD, P {
+    font-size: 11px;
+}
+
+P 
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+A {
+    text-decoration: none;
+    color: #752864;
+}
+
+A IMG {
+    border: none;
+}
+
+H1 
+{
+	font-size: 22px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+H2
+{
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+H5 
+{
+	font-size:10px;
+	margin-top:0;
+	margin-bottom:19px	
+}
+
+.textNormal 
+{
+	font-size: 11px;
+	color: #000000;
+}
+
+.errorPanel 
+{
+	color: #FF0000;
+	margin-bottom: 20px;
+}
+
+/*******************************************************************/
+/* Layout/canvas                                                   */
+/*******************************************************************/
+
+.canvas 
+{
+	/*width:850px;*/
+	width:839px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.canvasLayoutTable 
+{
+	width:100%;
+	margin-top:5px;
+}
+
+.canvasLayoutTable .leftCell 
+{
+	width:125px;
+	height:100%;
+	background:url("Images/System/menu_midbg_line.gif") repeat-y;
+}
+
+.canvasLayoutTable .contentCell 
+{
+	padding-top:27px;
+	padding-left:26px;
+	padding-right:26px;
+	/*padding-right:37px;*/
+}
+
+.canvasLayoutTable .rightCell 
+{
+	width:125px;
+}
+
+.canvasLayoutTable .leftCellBottom 
+{
+	border-bottom:1px solid #BA93B1;
+	background:url("Images/System/menu_midbg_line.gif") repeat-y;
+	text-align:center;
+}
+
+/*******************************************************************/
+/* Navigation                                                      */
+/*******************************************************************/
+
+.leftMenu 
+{
+	float:left;
+	clear:both;
+	padding-top:18px;
+	width:123px;
+	min-height:300px;
+}
+
+.leftMenu A {
+    display: block;
+    margin-bottom: 10px;
+
+    font-size: 10px;
+    text-decoration: none;
+    color: #BA93B1;
+    font-weight: bold;
+    
+    padding-left: 18px;
+}
+
+.leftMenu A.selected, .leftMenu A.expanded {
+    margin-bottom: 2px;
+    background: url("Images/System/arrow_right.gif") no-repeat 6px 3px;
+}
+
+.leftSubMenu 
+{
+	margin-bottom: 10px;
+}
+
+.leftSubMenu A 
+{
+	font-weight: normal;
+	margin-left: 20px;
+    margin-bottom: 2px;	
+}
+
+.leftSubMenu A.selected
+{
+	background: none;
+}
+
+/*******************************************************************/
+/* Factboxes                                                       */
+/*******************************************************************/
+
+.factbox 
+{
+	margin-bottom:4px;
+	padding:8px;
+}
+
+.factboxPurple P, .factboxWhite P
+{
+	font-size: 10px;	
+}
+
+.factboxPurple 
+{
+	background: #C894B4;
+	color: #FFFFFF;
+}
+
+.factboxPurple A 
+{
+	color: #FFFFFF;
+}
+
+.factboxWhite
+{
+	background: #FFFFFF;
+	border: 1px solid #882366;
+	color: #882366;
+}
+
+.newsbox A
+{
+	display: block;
+	margin-top: 10px;
+}
+
+/****************************************************************************
+	.NET Control: LabeledTextbox
+****************************************************************************/
+
+.labeledTextbox 
+{
+	float: none;
+	clear: both;
+	height: 25px;
+}
+
+.labeledTextbox .label
+{
+	margin-top: 4px;
+	float: left;
+	width: 130px;
+	clear: none;
+}
+
+.labeledTextbox .required 
+{
+}
+
+.labeledTextbox .textbox 
+{
+	float: left;
+	clear: right;
+}
+
+.labeledTextbox .textbox INPUT 
+{
+	width: 150px;
+}
+
+/*******************************************************************/
+/* Extranet specific                                               */
+/*******************************************************************/
+
+A.signout {
+    display: block;
+    color: #000000;
+    font-size: 10px;
+    text-align: right;
+}
+
